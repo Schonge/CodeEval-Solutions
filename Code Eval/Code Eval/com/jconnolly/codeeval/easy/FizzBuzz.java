@@ -17,18 +17,24 @@ public class FizzBuzz {
 			br = new BufferedReader(new FileReader(file));
 			String line;
 			String[] nums;
+			int a, b, n;
 			// Store each line as a string in an array
 			while((line = br.readLine()) != null) {
+				System.out.println(line);
 				nums = line.split(" ");
-				int[] numbers = new int[nums.length];
-				for(int i = 0; i < numbers.length; i++) {
-					numbers[i] = Integer.parseInt(nums[i]);
-				}
-				for(int j = 0; j < nums.length; j++) {
-					if(j == 0) {
-						fb.checkFizzBuzz(numbers[j]);
+				// Set variables A, B and N, A represents number for Fizz,
+				// B represents number for Buzz and N represents number limit
+				// to count up to
+				a = Integer.parseInt(nums[0]);
+				b = Integer.parseInt(nums[1]);
+				n = Integer.parseInt(nums[2]);
+				System.out.println(a + " " + b + " " + n + " ");
+				
+				for(int i = 1; i <= n; i++) {
+					if(i == 1) {
+						fb.checkFizzBuzz(i, a, b);
 					} else {
-						fb.checkFizzBuzz2(numbers[j]);
+						fb.checkFizzBuzz2(i, a, b);
 					}
 				}
 				System.out.println();
@@ -41,28 +47,30 @@ public class FizzBuzz {
 		}
 	}
 	
-	public void checkFizzBuzz(int num) {
+	// Check for the first Fizz or Buzz etc. in line. No spaces are printed
+	public void checkFizzBuzz(int num, int divisorA, int divisorB) {
 		
-		if(num % 3 == 0) {
-			System.out.print("F");
-		} else if(num % 5 == 0) {
-			System.out.print("B");
-		} else if(num % 3 == 0 && num % 5 == 0) {
+		if(num % divisorA == 0 && num % divisorB == 0) {
 			System.out.print("FB");
+		} else if(num % divisorA == 0) {
+			System.out.print("F");
+		} else if(num % divisorB == 0) {
+			System.out.print("B");			
 		} else {
 			System.out.print(num);
 		}
 		
 	}
 	
-	public void checkFizzBuzz2(int num) {
+	// Check for Fizz or Buzz etc. in line. This accounts for the spaces that need to be provided.
+	public void checkFizzBuzz2(int num, int divisorA, int divisorB) {
 		
-		if(num % 3 == 0) {
-			System.out.print(" " + "F");
-		} else if(num % 5 == 0) {
-			System.out.print(" " + "B");
-		} else if(num % 3 == 0 && num % 5 == 0) {
+		if(num % divisorA == 0 && num % divisorB == 0) {
 			System.out.print(" " + "FB");
+		} else if(num % divisorA == 0) {
+			System.out.print(" " + "F");
+		} else if(num % divisorB == 0) {
+			System.out.print(" " + "B");
 		} else {
 			System.out.print(" " + num);
 		}
