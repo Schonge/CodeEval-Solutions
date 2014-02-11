@@ -18,9 +18,7 @@ public class FizzBuzz {
 			String line;
 			String[] nums;
 			int a, b, n;
-			// Store each line as a string in an array
 			while((line = br.readLine()) != null) {
-				System.out.println(line);
 				nums = line.split(" ");
 				// Set variables A, B and N, A represents number for Fizz,
 				// B represents number for Buzz and N represents number limit
@@ -28,7 +26,6 @@ public class FizzBuzz {
 				a = Integer.parseInt(nums[0]);
 				b = Integer.parseInt(nums[1]);
 				n = Integer.parseInt(nums[2]);
-				System.out.println(a + " " + b + " " + n + " ");
 				
 				for(int i = 1; i <= n; i++) {
 					if(i == 1) {
