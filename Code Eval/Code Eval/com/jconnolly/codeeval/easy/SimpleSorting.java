@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Write a program which sorts numbers.
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

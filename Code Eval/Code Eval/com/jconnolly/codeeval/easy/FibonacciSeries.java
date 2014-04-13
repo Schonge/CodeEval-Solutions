@@ -1,5 +1,10 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * The Fibonacci series is defined as: F(0) = 0; F(1) = 1; F(n) = F(n-1) + F(n-2) when n>1.
+ * Given a positive integer 'n', print out the F(n).
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;

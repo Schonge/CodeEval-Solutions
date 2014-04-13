@@ -1,5 +1,11 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * You have a string of words and digits divided by comma.
+ * Write a program which separates words with digits.
+ * You shouldn't change the order elements.
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

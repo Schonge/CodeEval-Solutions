@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Write a program to reverse the words of an input sentence.
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;

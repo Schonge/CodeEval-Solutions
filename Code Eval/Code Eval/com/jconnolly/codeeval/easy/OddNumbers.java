@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Print the odd numbers from 1 to 99.
+ */
+
 public class OddNumbers {
 	
 	public static void main(String[] args) {

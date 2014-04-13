@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Write a program which finds the next-to-last word in a string.
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

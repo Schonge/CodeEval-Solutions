@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Given a positive integer, find the sum of its constituent digits.
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;

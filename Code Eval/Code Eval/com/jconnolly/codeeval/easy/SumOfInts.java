@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Print out the sum of integers read from a file.
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

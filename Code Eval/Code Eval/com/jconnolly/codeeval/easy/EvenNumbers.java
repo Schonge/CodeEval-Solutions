@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Write a program which checks input numbers and determines whether a number is even or not.
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Write a program which capitalizes the first letter of each word in a sentence.
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

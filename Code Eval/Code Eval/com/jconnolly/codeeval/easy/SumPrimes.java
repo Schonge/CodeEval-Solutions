@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Write a program to determine the sum of the first 1000 prime numbers.
+ */
+
 public class SumPrimes {
 	
 	public static void main(String[] args) {

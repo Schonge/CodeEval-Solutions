@@ -1,5 +1,10 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Given a number n and two integers p1,p2 determine if the bits in position p1 and p2 are the same or not.
+ * Positions p1 and p2 and 1 based.
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

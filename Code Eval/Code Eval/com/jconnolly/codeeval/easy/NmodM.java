@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Given two integers N and M, calculate N Mod M (without using any inbuilt modulus operator).
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

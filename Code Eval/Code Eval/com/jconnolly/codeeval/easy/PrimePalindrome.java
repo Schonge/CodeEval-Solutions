@@ -1,5 +1,9 @@
 package com.jconnolly.codeeval.easy;
 
+/*
+ * Write a program to determine the biggest prime palindrome under 1000.
+ */
+
 public class PrimePalindrome {
 	
 	public static void main(String[] args) {
